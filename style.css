@@ -1,0 +1,61 @@
+body{
+    font-family: "Roboto" sans-serif;
+}
+header{
+   background-image: linear-gradient(180deg, #c4b6fd, #96acfc); 
+}
+.card:hover{
+background-color:rgb(0, 110, 255);
+color: white;
+cursor: pointer;
+}
+
+#home-tab-pane{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 102, 255);
+    font-weight: bold;
+    padding-top: 3%;
+}
+#profile-tab-pane{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 102, 255);
+    font-weight: bold;
+    padding-top: 3%;
+}
+#contact-tab-pane{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 102, 255);
+    font-weight: bold;
+    padding-top: 3%;
+}
+#myTab{
+    border: none;
+}
+#myTabContent{
+    border: none;!important
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+border: none;
+background-color: #0a58ca;
+color: white;
+}
+
+.back-to-top a{
+margin-left: 93%;
+}
+
+@media (max-width:900px) {
+    .card{
+        margin-bottom: 3%;
+    }
+    .tab-content img{
+        margin-bottom: 3%;
+    }
+    .back-to-top a{
+        margin-left: 80%;
+        }
+    
+}
